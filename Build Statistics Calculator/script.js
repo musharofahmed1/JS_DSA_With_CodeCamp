@@ -1,3 +1,7 @@
+// - map(): transforms each element in an array and returns a new array.
+// - filter(): returns a new array with elements that pass a given test.
+// - reduce(): reduces the array to a single value by applying a function cumulatively.
+
 const getMean = (array) => array.reduce((acc, el) => acc + el, 0) / array.length;
 
 const getMedian = (array) => {
